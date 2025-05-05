@@ -15,6 +15,7 @@ Allow: /markalar.html
 Disallow: /admin/
 Disallow: /private/
 Disallow: /includes/
+Disallow: /images/favicons/
 
 # Sitemap location
 Sitemap: https://sogutlerservis.com/sitemap.xml 
