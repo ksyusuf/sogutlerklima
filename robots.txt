@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /hizmetler.html
+Allow: /montaj.html
+Allow: /bakim.html
+Allow: /servis.html
+Allow: /ariza.html
+Allow: /danismanlik.html
+Allow: /markalar.html
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+
+# Sitemap location
+Sitemap: https://sogutlerservis.com/sitemap.xml 
