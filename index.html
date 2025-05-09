@@ -86,14 +86,8 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://sogutlerservis.com/" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17055278287"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-17055278287');
-    </script>
+  <!-- Google Analytics -->
+  <script src="js/analytics.js"></script>
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -150,7 +144,7 @@
 
 </head>
 
-<body>
+<body style="opacity: 0; transition: opacity 0.3s ease-in-out;">
   <div class="hero_area">
     <!-- header-nav section -->
     <div id="header-nav-placeholder"></div>
@@ -196,30 +190,36 @@
       <div class="feature_container" style="display: flex; justify-content: space-around;">
 
         <div class="box">
-          <div style="display: flex; align-items: center;">
-            <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
-              <img src="images/klima-servis-ve-bakim-hizmeti.png" class="img-fluid" alt="Klima Servis ve Bakım Hizmeti">
+          <a href="servis.html" style="text-decoration: none; color: inherit;">
+            <div style="display: flex; align-items: center;">
+              <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
+                <img src="images/klima-servis-ve-bakim-hizmeti.png" class="img-fluid" alt="Klima Servis ve Bakım Hizmeti">
+              </div>
+              <h5 class="name mb-0">Servis</h5>
             </div>
-            <h5 class="name mb-0">Servis</h5>
-          </div>
+          </a>
         </div>
 
         <div class="box">
-          <div style="display: flex; align-items: center;">
-            <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
-              <img src="images/klima-temizlik-ve-bakim-hizmeti.png" class="img-fluid" alt="Klima Temizlik ve Bakım Hizmeti">
+          <a href="bakim.html" style="text-decoration: none; color: inherit;">
+            <div style="display: flex; align-items: center;">
+              <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
+                <img src="images/klima-temizlik-ve-bakim-hizmeti.png" class="img-fluid" alt="Klima Temizlik ve Bakım Hizmeti">
+              </div>
+              <h5 class="name mb-0">Bakım</h5>
             </div>
-            <h5 class="name mb-0">Bakım</h5>
-          </div>
+          </a>
         </div>
 
         <div class="box">
-          <div style="display: flex; align-items: center;">
-            <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
-              <img src="images/klima-periyodik-bakim-hizmeti.png" class="img-fluid" alt="Klima Periyodik Bakım Hizmeti">
+          <a href="ariza.html" style="text-decoration: none; color: inherit;">
+            <div style="display: flex; align-items: center;">
+              <div class="img-box d-flex justify-content-center align-items-center" style="margin-right: 50px;">
+                <img src="images/klima-periyodik-bakim-hizmeti.png" class="img-fluid" alt="Klima Periyodik Bakım Hizmeti">
+              </div>
+              <h5 class="name mb-0">Tamir</h5>
             </div>
-            <h5 class="name mb-0">Tamir</h5>
-          </div>
+          </a>
         </div>
 
       </div>
@@ -485,12 +485,5 @@
   <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    $(function(){
-      $("#header-nav-placeholder").load("includes/header-nav.html");
-      $("#footer-placeholder").load("includes/footer.html");
-    });
-  </script>
-
 </body>
 </html>

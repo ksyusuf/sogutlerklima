@@ -13,18 +13,12 @@
   <meta name="author" content="Söğütler Servis" />
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://sogutlerservis.com/404.html" />
+  <link rel="canonical" href="https://sogutlerservis.com/404" />
+
+  <!-- Google Analytics -->
+  <script src="js/analytics.js"></script>
 
   <title>404 - Sayfa Bulunamadı | Söğütler Servis</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17055278287"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'AW-17055278287');
-    </script>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -74,7 +68,7 @@
   </style>
 </head>
 
-<body>
+<body style="opacity: 0; transition: opacity 0.3s ease-in-out;">
   <div class="hero_area">
     <!-- header-nav section -->
     <div id="header-nav-placeholder"></div>
@@ -106,15 +100,9 @@
   <!-- end footer section -->
 
   <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    $(function(){
-      $("#header-nav-placeholder").load("includes/header-nav.html");
-      $("#footer-placeholder").load("includes/footer.html");
-    });
-  </script>
-
 </body>
 </html> 

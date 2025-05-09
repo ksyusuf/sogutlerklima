@@ -13,16 +13,10 @@
   <meta name="author" content="Söğütler Servis" />
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://sogutlerservis.com/about.html" />
+  <link rel="canonical" href="https://sogutlerservis.com/about" />
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17055278287"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17055278287');
-  </script>
+  <!-- Google Analytics -->
+  <script src="js/analytics.js"></script>
 
   <title>Söğütler Servis Hakkımızda | İstanbul Klima Servisi | Profesyonel Klima Hizmetleri</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -42,7 +36,7 @@
 
 </head>
 
-<body>
+<body style="opacity: 0; transition: opacity 0.3s ease-in-out;">
   <div class="hero_area">
     <!-- header-nav section -->
     <div id="header-nav-placeholder"></div>
@@ -93,13 +87,6 @@
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
-
-  <script>
-    $(function(){
-      $("#header-nav-placeholder").load("includes/header-nav.html");
-      $("#footer-placeholder").load("includes/footer.html");
-    });
-  </script>
 
 </body>
 
